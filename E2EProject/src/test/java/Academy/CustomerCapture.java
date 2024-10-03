@@ -24,7 +24,7 @@ public class CustomerCapture {
 		pc = new PreConditions();
 		boolean datecheckDob = pc.date_check(dobyear, dobmonth, dobdate, "dob");
 		boolean datecheckGov = pc.date_check(govyear, govmonth, govdate, "gov");
-		System.out.println(govyear + " " + govmonth + " " + govdate);
+		//System.out.println(govyear + " " + govmonth + " " + govdate);
 		System.out.println(govyear + " " + govmonth + " " + govdate);
 		int monthDob = pc.month_check(dobmonth);
 		int monthGov = pc.month_check(govmonth);
