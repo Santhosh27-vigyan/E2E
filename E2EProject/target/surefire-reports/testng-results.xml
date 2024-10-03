@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="72" passed="72" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-27T12:57:59 IST" name="Suite" finished-at="2024-09-27T13:05:03 IST" duration-ms="423981">
+    <groups>
+    </groups>
+    <test started-at="2024-09-27T12:57:59 IST" name="Prepaid Test" finished-at="2024-09-27T13:01:38 IST" duration-ms="219227">
+      <class name="finalCall.SuspensionFinalCalls">
+        <test-method is-config="true" signature="DriverIntialization(org.testng.ITestContext)[pri:0, instance:finalCall.SuspensionFinalCalls@366ac49b]" started-at="2024-09-27T13:01:08 IST" name="DriverIntialization" finished-at="2024-09-27T13:01:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64fc2612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverIntialization -->
+        <test-method signature="login(java.lang.String)[pri:1, instance:finalCall.SuspensionFinalCalls@366ac49b]" started-at="2024-09-27T13:01:08 IST" name="login" finished-at="2024-09-27T13:01:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prepaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="SuspensionSearchCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:finalCall.SuspensionFinalCalls@366ac49b]" started-at="2024-09-27T13:01:09 IST" name="SuspensionSearchCustomer" data-provider="dataProvider" finished-at="2024-09-27T13:01:10 IST" depends-on-methods="finalCall.SuspensionFinalCalls.login" duration-ms="1696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionSearchCustomer -->
+        <test-method signature="SuspensionCustomer360View()[pri:3, instance:finalCall.SuspensionFinalCalls@366ac49b]" started-at="2024-09-27T13:01:11 IST" name="SuspensionCustomer360View" finished-at="2024-09-27T13:01:14 IST" depends-on-methods="finalCall.SuspensionFinalCalls.SuspensionSearchCustomer" duration-ms="2939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionCustomer360View -->
+        <test-method signature="SuspensionSelectSubscriptionPage()[pri:4, instance:finalCall.SuspensionFinalCalls@366ac49b]" started-at="2024-09-27T13:01:14 IST" name="SuspensionSelectSubscriptionPage" finished-at="2024-09-27T13:01:15 IST" depends-on-methods="finalCall.SuspensionFinalCalls.SuspensionCustomer360View" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionSelectSubscriptionPage -->
+        <test-method signature="SuspensionSummaryPage()[pri:5, instance:finalCall.SuspensionFinalCalls@366ac49b]" started-at="2024-09-27T13:01:15 IST" name="SuspensionSummaryPage" finished-at="2024-09-27T13:01:17 IST" depends-on-methods="finalCall.SuspensionFinalCalls.SuspensionSelectSubscriptionPage" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionSummaryPage -->
+        <test-method signature="SuspensionPaymentpage()[pri:6, instance:finalCall.SuspensionFinalCalls@366ac49b]" started-at="2024-09-27T13:01:17 IST" name="SuspensionPaymentpage" finished-at="2024-09-27T13:01:17 IST" depends-on-methods="finalCall.SuspensionFinalCalls.SuspensionSummaryPage" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionPaymentpage -->
+        <test-method signature="SuspensionStatusCheck()[pri:7, instance:finalCall.SuspensionFinalCalls@366ac49b]" started-at="2024-09-27T13:01:17 IST" name="SuspensionStatusCheck" finished-at="2024-09-27T13:01:23 IST" depends-on-methods="finalCall.SuspensionFinalCalls.SuspensionPaymentpage" duration-ms="5604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionStatusCheck -->
+      </class> <!-- finalCall.SuspensionFinalCalls -->
+      <class name="finalCall.AddVasFinalCalls">
+        <test-method is-config="true" signature="DriverIntialization(org.testng.ITestContext)[pri:0, instance:finalCall.AddVasFinalCalls@30b19518]" started-at="2024-09-27T13:00:22 IST" name="DriverIntialization" finished-at="2024-09-27T13:00:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64fc2612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverIntialization -->
+        <test-method signature="login(java.lang.String)[pri:1, instance:finalCall.AddVasFinalCalls@30b19518]" started-at="2024-09-27T13:00:22 IST" name="login" finished-at="2024-09-27T13:00:22 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prepaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="SearchCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:finalCall.AddVasFinalCalls@30b19518]" started-at="2024-09-27T13:00:22 IST" name="SearchCustomer" data-provider="dataProvider" finished-at="2024-09-27T13:00:24 IST" depends-on-methods="finalCall.AddVasFinalCalls.login" duration-ms="2225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCustomer -->
+        <test-method signature="Customer360View()[pri:3, instance:finalCall.AddVasFinalCalls@30b19518]" started-at="2024-09-27T13:00:24 IST" name="Customer360View" finished-at="2024-09-27T13:00:31 IST" depends-on-methods="finalCall.AddVasFinalCalls.SearchCustomer" duration-ms="6656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer360View -->
+        <test-method signature="SelectSubscriptionPage()[pri:4, instance:finalCall.AddVasFinalCalls@30b19518]" started-at="2024-09-27T13:00:31 IST" name="SelectSubscriptionPage" finished-at="2024-09-27T13:00:32 IST" depends-on-methods="finalCall.AddVasFinalCalls.Customer360View" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSubscriptionPage -->
+        <test-method signature="SelectVasPlanAndTypePage(java.lang.String,java.lang.String)[pri:5, instance:finalCall.AddVasFinalCalls@30b19518]" started-at="2024-09-27T13:00:33 IST" name="SelectVasPlanAndTypePage" data-provider="dataProvider" finished-at="2024-09-27T13:00:41 IST" depends-on-methods="finalCall.AddVasFinalCalls.SelectSubscriptionPage" duration-ms="7941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Pay As You Go]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prepaid Voice Fr 5G Enabler]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectVasPlanAndTypePage -->
+        <test-method signature="ProductConfigurationPage()[pri:6, instance:finalCall.AddVasFinalCalls@30b19518]" started-at="2024-09-27T13:00:41 IST" name="ProductConfigurationPage" finished-at="2024-09-27T13:00:42 IST" depends-on-methods="finalCall.AddVasFinalCalls.SelectVasPlanAndTypePage" duration-ms="1342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductConfigurationPage -->
+        <test-method signature="SummaryPage()[pri:7, instance:finalCall.AddVasFinalCalls@30b19518]" started-at="2024-09-27T13:00:42 IST" name="SummaryPage" finished-at="2024-09-27T13:00:43 IST" depends-on-methods="finalCall.AddVasFinalCalls.ProductConfigurationPage" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SummaryPage -->
+        <test-method signature="AddvasStatusCheck()[pri:8, instance:finalCall.AddVasFinalCalls@30b19518]" started-at="2024-09-27T13:00:44 IST" name="AddvasStatusCheck" finished-at="2024-09-27T13:00:51 IST" depends-on-methods="finalCall.AddVasFinalCalls.SummaryPage" duration-ms="7857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddvasStatusCheck -->
+      </class> <!-- finalCall.AddVasFinalCalls -->
+      <class name="finalCall.RemoveVasFinalCalls">
+        <test-method signature="login(java.lang.String)[pri:1, instance:finalCall.RemoveVasFinalCalls@363042d7]" started-at="2024-09-27T13:00:52 IST" name="login" finished-at="2024-09-27T13:00:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prepaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="DriverIntialization(org.testng.ITestContext)[pri:0, instance:finalCall.RemoveVasFinalCalls@363042d7]" started-at="2024-09-27T13:00:52 IST" name="DriverIntialization" finished-at="2024-09-27T13:00:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64fc2612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverIntialization -->
+        <test-method signature="RemoveVasSearchCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:finalCall.RemoveVasFinalCalls@363042d7]" started-at="2024-09-27T13:00:52 IST" name="RemoveVasSearchCustomer" data-provider="dataProvider" finished-at="2024-09-27T13:00:54 IST" depends-on-methods="finalCall.RemoveVasFinalCalls.login" duration-ms="2088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveVasSearchCustomer -->
+        <test-method signature="RemoveVasCustomer360View(java.lang.String,java.lang.String)[pri:3, instance:finalCall.RemoveVasFinalCalls@363042d7]" started-at="2024-09-27T13:00:54 IST" name="RemoveVasCustomer360View" data-provider="dataProvider" finished-at="2024-09-27T13:00:58 IST" depends-on-methods="finalCall.RemoveVasFinalCalls.RemoveVasSearchCustomer" duration-ms="3965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Pay As You Go]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prepaid Voice Fr 5G Enabler]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveVasCustomer360View -->
+        <test-method signature="RemoveVasSelectSubscriptionPage()[pri:4, instance:finalCall.RemoveVasFinalCalls@363042d7]" started-at="2024-09-27T13:00:59 IST" name="RemoveVasSelectSubscriptionPage" finished-at="2024-09-27T13:01:00 IST" depends-on-methods="finalCall.RemoveVasFinalCalls.RemoveVasCustomer360View" duration-ms="1724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveVasSelectSubscriptionPage -->
+        <test-method signature="RemoveVasSummaryPage()[pri:5, instance:finalCall.RemoveVasFinalCalls@363042d7]" started-at="2024-09-27T13:01:00 IST" name="RemoveVasSummaryPage" finished-at="2024-09-27T13:01:02 IST" depends-on-methods="finalCall.RemoveVasFinalCalls.RemoveVasSelectSubscriptionPage" duration-ms="1294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveVasSummaryPage -->
+        <test-method signature="RemoveVasStatusCheck()[pri:6, instance:finalCall.RemoveVasFinalCalls@363042d7]" started-at="2024-09-27T13:01:02 IST" name="RemoveVasStatusCheck" finished-at="2024-09-27T13:01:08 IST" depends-on-methods="finalCall.RemoveVasFinalCalls.RemoveVasSummaryPage" duration-ms="6182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveVasStatusCheck -->
+      </class> <!-- finalCall.RemoveVasFinalCalls -->
+      <class name="finalCall.onboardingFinalCalls">
+        <test-method is-config="true" signature="getBrowser(org.testng.ITestContext)[pri:0, instance:finalCall.onboardingFinalCalls@1b73be9f]" started-at="2024-09-27T12:57:59 IST" name="getBrowser" finished-at="2024-09-27T12:58:02 IST" duration-ms="2722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64fc2612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method signature="login(java.lang.String)[pri:1, instance:finalCall.onboardingFinalCalls@1b73be9f]" started-at="2024-09-27T12:58:02 IST" name="login" finished-at="2024-09-27T12:58:16 IST" duration-ms="13826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prepaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Dashboard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:finalCall.onboardingFinalCalls@1b73be9f]" started-at="2024-09-27T12:58:18 IST" name="Dashboard" data-provider="dataProvider" finished-at="2024-09-27T12:58:36 IST" depends-on-methods="finalCall.onboardingFinalCalls.login" duration-ms="18381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[98652326]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testng@selenium.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Eclipse]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kuwait]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard -->
+        <test-method signature="CustomerCapture(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:finalCall.onboardingFinalCalls@1b73be9f]" started-at="2024-09-27T12:58:36 IST" name="CustomerCapture" data-provider="dataProvider" finished-at="2024-09-27T12:59:23 IST" depends-on-methods="finalCall.onboardingFinalCalls.Dashboard" duration-ms="46682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[owner]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1945]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2099]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aug]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test_G]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[test_A]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[test_street]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[office]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1st-30thBillCycle]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[national id]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[santhu_testing]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[INDIVIDUAL]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[INDIVIDUAL]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[kuwait]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Kuwaiti]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[DunningSchedule]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[monthly]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[1st-30thBillCycle]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[Kuwaiti]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[Region1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerCapture -->
+        <test-method signature="SelectProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:finalCall.onboardingFinalCalls@1b73be9f]" started-at="2024-09-27T12:59:23 IST" name="SelectProduct" data-provider="dataProvider" finished-at="2024-09-27T12:59:35 IST" depends-on-methods="finalCall.onboardingFinalCalls.CustomerCapture" duration-ms="11193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Postpaid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prepaid Smartphone Plan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MONTHLY 25 NP]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prepaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectProduct -->
+        <test-method signature="ProductConfigurationPage()[pri:5, instance:finalCall.onboardingFinalCalls@1b73be9f]" started-at="2024-09-27T12:59:35 IST" name="ProductConfigurationPage" finished-at="2024-09-27T12:59:56 IST" depends-on-methods="finalCall.onboardingFinalCalls.SelectProduct" duration-ms="21359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductConfigurationPage -->
+        <test-method signature="ProductUserDetailsPage()[pri:6, instance:finalCall.onboardingFinalCalls@1b73be9f]" started-at="2024-09-27T12:59:56 IST" name="ProductUserDetailsPage" finished-at="2024-09-27T13:00:00 IST" depends-on-methods="finalCall.onboardingFinalCalls.ProductConfigurationPage" duration-ms="3420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductUserDetailsPage -->
+        <test-method signature="SummaryPage()[pri:6, instance:finalCall.onboardingFinalCalls@1b73be9f]" started-at="2024-09-27T13:00:00 IST" name="SummaryPage" finished-at="2024-09-27T13:00:03 IST" depends-on-methods="finalCall.onboardingFinalCalls.ProductUserDetailsPage" duration-ms="3378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SummaryPage -->
+        <test-method signature="Paymentpage()[pri:7, instance:finalCall.onboardingFinalCalls@1b73be9f]" started-at="2024-09-27T13:00:03 IST" name="Paymentpage" finished-at="2024-09-27T13:00:07 IST" depends-on-methods="finalCall.onboardingFinalCalls.SummaryPage" duration-ms="4013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Paymentpage -->
+        <test-method signature="StatusCheck()[pri:8, instance:finalCall.onboardingFinalCalls@1b73be9f]" started-at="2024-09-27T13:00:08 IST" name="StatusCheck" finished-at="2024-09-27T13:00:21 IST" depends-on-methods="finalCall.onboardingFinalCalls.Paymentpage" duration-ms="13907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatusCheck -->
+      </class> <!-- finalCall.onboardingFinalCalls -->
+      <class name="finalCall.RevokeSuspensionFinalCalls">
+        <test-method is-config="true" signature="DriverIntialization(org.testng.ITestContext)[pri:0, instance:finalCall.RevokeSuspensionFinalCalls@6ad59d92]" started-at="2024-09-27T13:01:23 IST" name="DriverIntialization" finished-at="2024-09-27T13:01:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64fc2612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverIntialization -->
+        <test-method signature="login(java.lang.String)[pri:1, instance:finalCall.RevokeSuspensionFinalCalls@6ad59d92]" started-at="2024-09-27T13:01:23 IST" name="login" finished-at="2024-09-27T13:01:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prepaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="RevokeSuspensionSearchCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:finalCall.RevokeSuspensionFinalCalls@6ad59d92]" started-at="2024-09-27T13:01:23 IST" name="RevokeSuspensionSearchCustomer" data-provider="dataProvider" finished-at="2024-09-27T13:01:25 IST" depends-on-methods="finalCall.RevokeSuspensionFinalCalls.login" duration-ms="2116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevokeSuspensionSearchCustomer -->
+        <test-method signature="RevokeSuspensionCustomer360View()[pri:3, instance:finalCall.RevokeSuspensionFinalCalls@6ad59d92]" started-at="2024-09-27T13:01:26 IST" name="RevokeSuspensionCustomer360View" finished-at="2024-09-27T13:01:28 IST" depends-on-methods="finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionSearchCustomer" duration-ms="2403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevokeSuspensionCustomer360View -->
+        <test-method signature="RevokeSuspensionSelectSubscriptionPage()[pri:4, instance:finalCall.RevokeSuspensionFinalCalls@6ad59d92]" started-at="2024-09-27T13:01:28 IST" name="RevokeSuspensionSelectSubscriptionPage" finished-at="2024-09-27T13:01:30 IST" depends-on-methods="finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionCustomer360View" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevokeSuspensionSelectSubscriptionPage -->
+        <test-method signature="RevokeSuspensionSummaryPage()[pri:5, instance:finalCall.RevokeSuspensionFinalCalls@6ad59d92]" started-at="2024-09-27T13:01:30 IST" name="RevokeSuspensionSummaryPage" finished-at="2024-09-27T13:01:32 IST" depends-on-methods="finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionSelectSubscriptionPage" duration-ms="1736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevokeSuspensionSummaryPage -->
+        <test-method signature="RevokeSuspensionStatusCheck()[pri:6, instance:finalCall.RevokeSuspensionFinalCalls@6ad59d92]" started-at="2024-09-27T13:01:32 IST" name="RevokeSuspensionStatusCheck" finished-at="2024-09-27T13:01:38 IST" depends-on-methods="finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionSummaryPage" duration-ms="6048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevokeSuspensionStatusCheck -->
+      </class> <!-- finalCall.RevokeSuspensionFinalCalls -->
+    </test> <!-- Prepaid Test -->
+    <test started-at="2024-09-27T13:01:39 IST" name="Postpaid Test" finished-at="2024-09-27T13:05:03 IST" duration-ms="204698">
+      <class name="finalCall.SuspensionFinalCalls">
+        <test-method is-config="true" signature="DriverIntialization(org.testng.ITestContext)[pri:0, instance:finalCall.SuspensionFinalCalls@294e5088]" started-at="2024-09-27T13:04:31 IST" name="DriverIntialization" finished-at="2024-09-27T13:04:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a696f6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverIntialization -->
+        <test-method signature="login(java.lang.String)[pri:1, instance:finalCall.SuspensionFinalCalls@294e5088]" started-at="2024-09-27T13:04:31 IST" name="login" finished-at="2024-09-27T13:04:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Postpaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="SuspensionSearchCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:finalCall.SuspensionFinalCalls@294e5088]" started-at="2024-09-27T13:04:31 IST" name="SuspensionSearchCustomer" data-provider="dataProvider" finished-at="2024-09-27T13:04:33 IST" depends-on-methods="finalCall.SuspensionFinalCalls.login" duration-ms="2033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionSearchCustomer -->
+        <test-method signature="SuspensionCustomer360View()[pri:3, instance:finalCall.SuspensionFinalCalls@294e5088]" started-at="2024-09-27T13:04:34 IST" name="SuspensionCustomer360View" finished-at="2024-09-27T13:04:36 IST" depends-on-methods="finalCall.SuspensionFinalCalls.SuspensionSearchCustomer" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionCustomer360View -->
+        <test-method signature="SuspensionSelectSubscriptionPage()[pri:4, instance:finalCall.SuspensionFinalCalls@294e5088]" started-at="2024-09-27T13:04:36 IST" name="SuspensionSelectSubscriptionPage" finished-at="2024-09-27T13:04:38 IST" depends-on-methods="finalCall.SuspensionFinalCalls.SuspensionCustomer360View" duration-ms="1627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionSelectSubscriptionPage -->
+        <test-method signature="SuspensionSummaryPage()[pri:5, instance:finalCall.SuspensionFinalCalls@294e5088]" started-at="2024-09-27T13:04:38 IST" name="SuspensionSummaryPage" finished-at="2024-09-27T13:04:40 IST" depends-on-methods="finalCall.SuspensionFinalCalls.SuspensionSelectSubscriptionPage" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionSummaryPage -->
+        <test-method signature="SuspensionPaymentpage()[pri:6, instance:finalCall.SuspensionFinalCalls@294e5088]" started-at="2024-09-27T13:04:40 IST" name="SuspensionPaymentpage" finished-at="2024-09-27T13:04:41 IST" depends-on-methods="finalCall.SuspensionFinalCalls.SuspensionSummaryPage" duration-ms="1669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionPaymentpage -->
+        <test-method signature="SuspensionStatusCheck()[pri:7, instance:finalCall.SuspensionFinalCalls@294e5088]" started-at="2024-09-27T13:04:42 IST" name="SuspensionStatusCheck" finished-at="2024-09-27T13:04:48 IST" depends-on-methods="finalCall.SuspensionFinalCalls.SuspensionPaymentpage" duration-ms="6008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspensionStatusCheck -->
+      </class> <!-- finalCall.SuspensionFinalCalls -->
+      <class name="finalCall.AddVasFinalCalls">
+        <test-method is-config="true" signature="DriverIntialization(org.testng.ITestContext)[pri:0, instance:finalCall.AddVasFinalCalls@5f6722d3]" started-at="2024-09-27T13:03:48 IST" name="DriverIntialization" finished-at="2024-09-27T13:03:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a696f6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverIntialization -->
+        <test-method signature="login(java.lang.String)[pri:1, instance:finalCall.AddVasFinalCalls@5f6722d3]" started-at="2024-09-27T13:03:48 IST" name="login" finished-at="2024-09-27T13:03:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Postpaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="SearchCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:finalCall.AddVasFinalCalls@5f6722d3]" started-at="2024-09-27T13:03:48 IST" name="SearchCustomer" data-provider="dataProvider" finished-at="2024-09-27T13:03:51 IST" depends-on-methods="finalCall.AddVasFinalCalls.login" duration-ms="2768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCustomer -->
+        <test-method signature="Customer360View()[pri:3, instance:finalCall.AddVasFinalCalls@5f6722d3]" started-at="2024-09-27T13:03:51 IST" name="Customer360View" finished-at="2024-09-27T13:03:57 IST" depends-on-methods="finalCall.AddVasFinalCalls.SearchCustomer" duration-ms="6107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer360View -->
+        <test-method signature="SelectSubscriptionPage()[pri:4, instance:finalCall.AddVasFinalCalls@5f6722d3]" started-at="2024-09-27T13:03:57 IST" name="SelectSubscriptionPage" finished-at="2024-09-27T13:03:59 IST" depends-on-methods="finalCall.AddVasFinalCalls.Customer360View" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSubscriptionPage -->
+        <test-method signature="SelectVasPlanAndTypePage(java.lang.String,java.lang.String)[pri:5, instance:finalCall.AddVasFinalCalls@5f6722d3]" started-at="2024-09-27T13:03:59 IST" name="SelectVasPlanAndTypePage" data-provider="dataProvider" finished-at="2024-09-27T13:04:04 IST" depends-on-methods="finalCall.AddVasFinalCalls.SelectSubscriptionPage" duration-ms="5221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Pay As You Go]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prepaid Voice Fr 5G Enabler]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectVasPlanAndTypePage -->
+        <test-method signature="ProductConfigurationPage()[pri:6, instance:finalCall.AddVasFinalCalls@5f6722d3]" started-at="2024-09-27T13:04:04 IST" name="ProductConfigurationPage" finished-at="2024-09-27T13:04:05 IST" depends-on-methods="finalCall.AddVasFinalCalls.SelectVasPlanAndTypePage" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductConfigurationPage -->
+        <test-method signature="SummaryPage()[pri:7, instance:finalCall.AddVasFinalCalls@5f6722d3]" started-at="2024-09-27T13:04:06 IST" name="SummaryPage" finished-at="2024-09-27T13:04:08 IST" depends-on-methods="finalCall.AddVasFinalCalls.ProductConfigurationPage" duration-ms="2219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SummaryPage -->
+        <test-method signature="AddvasStatusCheck()[pri:8, instance:finalCall.AddVasFinalCalls@5f6722d3]" started-at="2024-09-27T13:04:08 IST" name="AddvasStatusCheck" finished-at="2024-09-27T13:04:14 IST" depends-on-methods="finalCall.AddVasFinalCalls.SummaryPage" duration-ms="6071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddvasStatusCheck -->
+      </class> <!-- finalCall.AddVasFinalCalls -->
+      <class name="finalCall.RemoveVasFinalCalls">
+        <test-method is-config="true" signature="DriverIntialization(org.testng.ITestContext)[pri:0, instance:finalCall.RemoveVasFinalCalls@2c532cd8]" started-at="2024-09-27T13:04:14 IST" name="DriverIntialization" finished-at="2024-09-27T13:04:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a696f6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverIntialization -->
+        <test-method signature="login(java.lang.String)[pri:1, instance:finalCall.RemoveVasFinalCalls@2c532cd8]" started-at="2024-09-27T13:04:14 IST" name="login" finished-at="2024-09-27T13:04:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Postpaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="RemoveVasSearchCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:finalCall.RemoveVasFinalCalls@2c532cd8]" started-at="2024-09-27T13:04:15 IST" name="RemoveVasSearchCustomer" data-provider="dataProvider" finished-at="2024-09-27T13:04:17 IST" depends-on-methods="finalCall.RemoveVasFinalCalls.login" duration-ms="2117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveVasSearchCustomer -->
+        <test-method signature="RemoveVasCustomer360View(java.lang.String,java.lang.String)[pri:3, instance:finalCall.RemoveVasFinalCalls@2c532cd8]" started-at="2024-09-27T13:04:17 IST" name="RemoveVasCustomer360View" data-provider="dataProvider" finished-at="2024-09-27T13:04:21 IST" depends-on-methods="finalCall.RemoveVasFinalCalls.RemoveVasSearchCustomer" duration-ms="4297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Pay As You Go]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prepaid Voice Fr 5G Enabler]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveVasCustomer360View -->
+        <test-method signature="RemoveVasSelectSubscriptionPage()[pri:4, instance:finalCall.RemoveVasFinalCalls@2c532cd8]" started-at="2024-09-27T13:04:21 IST" name="RemoveVasSelectSubscriptionPage" finished-at="2024-09-27T13:04:23 IST" depends-on-methods="finalCall.RemoveVasFinalCalls.RemoveVasCustomer360View" duration-ms="1742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveVasSelectSubscriptionPage -->
+        <test-method signature="RemoveVasSummaryPage()[pri:5, instance:finalCall.RemoveVasFinalCalls@2c532cd8]" started-at="2024-09-27T13:04:23 IST" name="RemoveVasSummaryPage" finished-at="2024-09-27T13:04:25 IST" depends-on-methods="finalCall.RemoveVasFinalCalls.RemoveVasSelectSubscriptionPage" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveVasSummaryPage -->
+        <test-method signature="RemoveVasStatusCheck()[pri:6, instance:finalCall.RemoveVasFinalCalls@2c532cd8]" started-at="2024-09-27T13:04:25 IST" name="RemoveVasStatusCheck" finished-at="2024-09-27T13:04:31 IST" depends-on-methods="finalCall.RemoveVasFinalCalls.RemoveVasSummaryPage" duration-ms="6125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveVasStatusCheck -->
+      </class> <!-- finalCall.RemoveVasFinalCalls -->
+      <class name="finalCall.onboardingFinalCalls">
+        <test-method is-config="true" signature="getBrowser(org.testng.ITestContext)[pri:0, instance:finalCall.onboardingFinalCalls@39a8312f]" started-at="2024-09-27T13:01:39 IST" name="getBrowser" finished-at="2024-09-27T13:01:40 IST" duration-ms="1838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a696f6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method signature="login(java.lang.String)[pri:1, instance:finalCall.onboardingFinalCalls@39a8312f]" started-at="2024-09-27T13:01:40 IST" name="login" finished-at="2024-09-27T13:01:53 IST" duration-ms="12546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Postpaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Dashboard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:finalCall.onboardingFinalCalls@39a8312f]" started-at="2024-09-27T13:01:53 IST" name="Dashboard" data-provider="dataProvider" finished-at="2024-09-27T13:02:10 IST" depends-on-methods="finalCall.onboardingFinalCalls.login" duration-ms="17176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[98652326]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testng@selenium.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Eclipse]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kuwait]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard -->
+        <test-method signature="CustomerCapture(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:finalCall.onboardingFinalCalls@39a8312f]" started-at="2024-09-27T13:02:11 IST" name="CustomerCapture" data-provider="dataProvider" finished-at="2024-09-27T13:02:54 IST" depends-on-methods="finalCall.onboardingFinalCalls.Dashboard" duration-ms="43450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[owner]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1945]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2099]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Aug]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test_G]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[test_A]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[test_street]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[office]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1st-30thBillCycle]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[national id]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[santhu_testing]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[INDIVIDUAL]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[INDIVIDUAL]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[kuwait]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Kuwaiti]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[DunningSchedule]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[monthly]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[1st-30thBillCycle]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[Kuwaiti]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[Region1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerCapture -->
+        <test-method signature="SelectProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:finalCall.onboardingFinalCalls@39a8312f]" started-at="2024-09-27T13:02:54 IST" name="SelectProduct" data-provider="dataProvider" finished-at="2024-09-27T13:03:03 IST" depends-on-methods="finalCall.onboardingFinalCalls.CustomerCapture" duration-ms="9265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Postpaid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prepaid Smartphone Plan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MONTHLY 25 NP]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prepaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectProduct -->
+        <test-method signature="ProductConfigurationPage()[pri:5, instance:finalCall.onboardingFinalCalls@39a8312f]" started-at="2024-09-27T13:03:04 IST" name="ProductConfigurationPage" finished-at="2024-09-27T13:03:24 IST" depends-on-methods="finalCall.onboardingFinalCalls.SelectProduct" duration-ms="20577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductConfigurationPage -->
+        <test-method signature="ProductUserDetailsPage()[pri:6, instance:finalCall.onboardingFinalCalls@39a8312f]" started-at="2024-09-27T13:03:24 IST" name="ProductUserDetailsPage" finished-at="2024-09-27T13:03:27 IST" depends-on-methods="finalCall.onboardingFinalCalls.ProductConfigurationPage" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductUserDetailsPage -->
+        <test-method signature="SummaryPage()[pri:6, instance:finalCall.onboardingFinalCalls@39a8312f]" started-at="2024-09-27T13:03:27 IST" name="SummaryPage" finished-at="2024-09-27T13:03:30 IST" depends-on-methods="finalCall.onboardingFinalCalls.ProductUserDetailsPage" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SummaryPage -->
+        <test-method signature="Paymentpage()[pri:7, instance:finalCall.onboardingFinalCalls@39a8312f]" started-at="2024-09-27T13:03:31 IST" name="Paymentpage" finished-at="2024-09-27T13:03:34 IST" depends-on-methods="finalCall.onboardingFinalCalls.SummaryPage" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Paymentpage -->
+        <test-method signature="StatusCheck()[pri:8, instance:finalCall.onboardingFinalCalls@39a8312f]" started-at="2024-09-27T13:03:34 IST" name="StatusCheck" finished-at="2024-09-27T13:03:47 IST" depends-on-methods="finalCall.onboardingFinalCalls.Paymentpage" duration-ms="13646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StatusCheck -->
+      </class> <!-- finalCall.onboardingFinalCalls -->
+      <class name="finalCall.RevokeSuspensionFinalCalls">
+        <test-method signature="login(java.lang.String)[pri:1, instance:finalCall.RevokeSuspensionFinalCalls@51972dc7]" started-at="2024-09-27T13:04:48 IST" name="login" finished-at="2024-09-27T13:04:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Postpaid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="DriverIntialization(org.testng.ITestContext)[pri:0, instance:finalCall.RevokeSuspensionFinalCalls@51972dc7]" started-at="2024-09-27T13:04:48 IST" name="DriverIntialization" finished-at="2024-09-27T13:04:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a696f6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverIntialization -->
+        <test-method signature="RevokeSuspensionSearchCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:finalCall.RevokeSuspensionFinalCalls@51972dc7]" started-at="2024-09-27T13:04:48 IST" name="RevokeSuspensionSearchCustomer" data-provider="dataProvider" finished-at="2024-09-27T13:04:50 IST" depends-on-methods="finalCall.RevokeSuspensionFinalCalls.login" duration-ms="2042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C3445962]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[C3350476]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevokeSuspensionSearchCustomer -->
+        <test-method signature="RevokeSuspensionCustomer360View()[pri:3, instance:finalCall.RevokeSuspensionFinalCalls@51972dc7]" started-at="2024-09-27T13:04:50 IST" name="RevokeSuspensionCustomer360View" finished-at="2024-09-27T13:04:54 IST" depends-on-methods="finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionSearchCustomer" duration-ms="3262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevokeSuspensionCustomer360View -->
+        <test-method signature="RevokeSuspensionSelectSubscriptionPage()[pri:4, instance:finalCall.RevokeSuspensionFinalCalls@51972dc7]" started-at="2024-09-27T13:04:54 IST" name="RevokeSuspensionSelectSubscriptionPage" finished-at="2024-09-27T13:04:55 IST" depends-on-methods="finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionCustomer360View" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevokeSuspensionSelectSubscriptionPage -->
+        <test-method signature="RevokeSuspensionSummaryPage()[pri:5, instance:finalCall.RevokeSuspensionFinalCalls@51972dc7]" started-at="2024-09-27T13:04:55 IST" name="RevokeSuspensionSummaryPage" finished-at="2024-09-27T13:04:57 IST" depends-on-methods="finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionSelectSubscriptionPage" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevokeSuspensionSummaryPage -->
+        <test-method signature="RevokeSuspensionStatusCheck()[pri:6, instance:finalCall.RevokeSuspensionFinalCalls@51972dc7]" started-at="2024-09-27T13:04:57 IST" name="RevokeSuspensionStatusCheck" finished-at="2024-09-27T13:05:03 IST" depends-on-methods="finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionSummaryPage" duration-ms="5979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevokeSuspensionStatusCheck -->
+      </class> <!-- finalCall.RevokeSuspensionFinalCalls -->
+    </test> <!-- Postpaid Test -->
+  </suite> <!-- Suite -->
+</testng-results>

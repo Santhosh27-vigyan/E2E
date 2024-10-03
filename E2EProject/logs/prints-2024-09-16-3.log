@@ -1,0 +1,65 @@
+12:25:09.475 [main] INFO  Academy.DashboardPage - username sent
+12:25:09.641 [main] INFO  Academy.DashboardPage - password sent
+12:25:14.702 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+12:25:16.460 [main] INFO  Academy.DashboardPage - DocumentType selected
+12:25:29.496 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+12:26:16.661 [main] INFO  finalCall.onboardingFinalCalls - Customer Capture Page Completed
+12:26:34.212 [main] INFO  finalCall.onboardingFinalCalls - Product Selected
+12:26:50.939 [main] INFO  finalCall.onboardingFinalCalls - Product configuration done
+12:26:54.636 [main] INFO  finalCall.onboardingFinalCalls - Product User details done
+12:27:19.190 [main] INFO  finalCall.onboardingFinalCalls - SummaryPage details Done
+12:27:24.125 [main] INFO  finalCall.onboardingFinalCalls - Payment Done
+12:44:41.061 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+12:44:47.301 [main] INFO  Academy.DashboardPage - certification byPassed
+12:44:47.463 [main] INFO  Academy.DashboardPage - username sent
+12:44:47.561 [main] INFO  Academy.DashboardPage - password sent
+12:44:51.320 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+12:44:53.453 [main] INFO  Academy.DashboardPage - DocumentType selected
+12:45:07.560 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+12:45:34.625 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+12:45:41.019 [main] INFO  Academy.DashboardPage - certification byPassed
+12:45:41.191 [main] INFO  Academy.DashboardPage - username sent
+12:45:41.309 [main] INFO  Academy.DashboardPage - password sent
+12:45:44.376 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+12:45:46.736 [main] INFO  Academy.DashboardPage - DocumentType selected
+12:45:59.597 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+12:46:46.564 [main] INFO  finalCall.onboardingFinalCalls - Customer Capture Page Completed
+12:46:57.165 [main] INFO  finalCall.onboardingFinalCalls - Product Selected
+12:47:21.112 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+12:47:27.009 [main] INFO  Academy.DashboardPage - certification byPassed
+12:47:27.183 [main] INFO  Academy.DashboardPage - username sent
+12:47:27.294 [main] INFO  Academy.DashboardPage - password sent
+12:47:30.338 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+12:47:32.927 [main] INFO  Academy.DashboardPage - DocumentType selected
+12:47:46.064 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+12:48:32.327 [main] INFO  finalCall.onboardingFinalCalls - Customer Capture Page Completed
+12:48:48.575 [main] INFO  finalCall.onboardingFinalCalls - Product Selected
+12:49:08.347 [main] INFO  finalCall.onboardingFinalCalls - Product configuration done
+12:49:12.281 [main] INFO  finalCall.onboardingFinalCalls - Product User details done
+12:49:16.559 [main] INFO  finalCall.onboardingFinalCalls - SummaryPage details Done
+12:49:21.216 [main] INFO  finalCall.onboardingFinalCalls - Payment Done
+12:51:56.938 [main] INFO  finalCall.onboardingFinalCalls - Onboarding Completed
+12:51:56.939 [main] INFO  finalCall.onboardingFinalCalls - Onboarded Customer ID C3382382
+13:16:02.218 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+13:16:05.200 [main] INFO  Academy.DashboardPage - certification byPassed
+13:16:12.966 [main] INFO  Academy.DashboardPage - username sent
+13:16:13.101 [main] INFO  Academy.DashboardPage - password sent
+13:16:16.453 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+13:16:19.230 [main] INFO  Academy.DashboardPage - DocumentType selected
+13:16:31.826 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+13:17:21.549 [main] INFO  finalCall.onboardingFinalCalls - Customer Capture Page Completed
+13:17:31.150 [main] INFO  finalCall.onboardingFinalCalls - Product Selected
+13:17:48.824 [main] INFO  finalCall.onboardingFinalCalls - Product configuration done
+13:17:51.752 [main] INFO  finalCall.onboardingFinalCalls - Product User details done
+13:18:00.249 [main] INFO  finalCall.onboardingFinalCalls - SummaryPage details Done
+13:18:04.509 [main] INFO  finalCall.onboardingFinalCalls - Payment Done
+13:19:31.875 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+13:19:37.756 [main] INFO  Academy.DashboardPage - certification byPassed
+13:19:37.929 [main] INFO  Academy.DashboardPage - username sent
+13:19:38.047 [main] INFO  Academy.DashboardPage - password sent
+13:19:41.227 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+13:19:42.846 [main] INFO  Academy.DashboardPage - DocumentType selected
+13:19:55.360 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+13:20:38.914 [main] INFO  finalCall.onboardingFinalCalls - Customer Capture Page Completed
+13:21:27.772 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+13:21:33.987 [main] INFO  Academy.DashboardPage - certification byPassed

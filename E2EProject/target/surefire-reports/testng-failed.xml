@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Listener.testListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="type" value="DefaultType"/>
+    <classes>
+      <class name="finalCall.AddVasFinalCalls">
+        <methods>
+          <include name="AddvasStatusCheck"/>
+          <include name="SearchCustomer"/>
+          <include name="ProductConfigurationPage"/>
+          <include name="SelectSubscriptionPage"/>
+          <include name="login"/>
+          <include name="SelectVasPlanAndTypePage"/>
+          <include name="DriverIntialization"/>
+          <include name="SummaryPage"/>
+          <include name="Customer360View"/>
+        </methods>
+      </class> <!-- finalCall.AddVasFinalCalls -->
+      <class name="finalCall.SuspensionFinalCalls">
+        <methods>
+          <include name="SuspensionSummaryPage"/>
+          <include name="SuspensionSelectSubscriptionPage"/>
+          <include name="SuspensionSearchCustomer"/>
+          <include name="SuspensionPaymentpage"/>
+          <include name="DriverIntialization"/>
+          <include name="SuspensionCustomer360View"/>
+          <include name="SuspensionStatusCheck"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- finalCall.SuspensionFinalCalls -->
+      <class name="finalCall.RevokeSuspensionFinalCalls">
+        <methods>
+          <include name="RevokeSuspensionCustomer360View"/>
+          <include name="login"/>
+          <include name="RevokeSuspensionStatusCheck"/>
+          <include name="RevokeSuspensionSummaryPage"/>
+          <include name="DriverIntialization"/>
+          <include name="RevokeSuspensionSelectSubscriptionPage"/>
+          <include name="RevokeSuspensionSearchCustomer"/>
+        </methods>
+      </class> <!-- finalCall.RevokeSuspensionFinalCalls -->
+      <class name="finalCall.RemoveVasFinalCalls">
+        <methods>
+          <include name="RemoveVasCustomer360View"/>
+          <include name="RemoveVasStatusCheck"/>
+          <include name="login"/>
+          <include name="RemoveVasSummaryPage"/>
+          <include name="DriverIntialization"/>
+          <include name="RemoveVasSearchCustomer"/>
+          <include name="RemoveVasSelectSubscriptionPage"/>
+        </methods>
+      </class> <!-- finalCall.RemoveVasFinalCalls -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

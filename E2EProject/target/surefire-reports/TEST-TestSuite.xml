@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="425.716" tests="72" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\selenium\eclipse\E2EProject\target\test-classes;D:\selenium\eclipse\E2EProject\target\classes;C:\Users\santosh\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\santosh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\santosh\.m2\repository\org\mongodb\mongo-java-driver\3.12.13\mongo-java-driver-3.12.13.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.1\selenium-java-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.1\selenium-chrome-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.1\selenium-chromium-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.1\selenium-json-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.1\selenium-devtools-v125-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.1\selenium-devtools-v126-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.1\selenium-devtools-v127-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.1\selenium-devtools-v85-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.1\selenium-edge-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.1\selenium-firefox-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\santosh\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.1\selenium-ie-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\santosh\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\santosh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\santosh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\santosh\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\santosh\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\santosh\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\santosh\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\santosh\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.1\selenium-safari-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.1\selenium-support-4.23.1.jar;C:\Users\santosh\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\santosh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\santosh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\santosh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\santosh\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\santosh\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\santosh\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\santosh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\santosh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\santosh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\santosh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\santosh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\santosh\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\santosh\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\santosh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\santosh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\santosh\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\santosh\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\santosh\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\santosh\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\santosh\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\santosh\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\santosh\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="xml" value="PrepaidAndPostpaidAllScenarios.xml"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin"/>
+    <property name="sun.java.command" value="C:\Users\santosh\AppData\Local\Temp\surefire17206387854125081797\surefirebooter-20240927125757749_3.jar C:\Users\santosh\AppData\Local\Temp\surefire17206387854125081797 2024-09-27T12-57-57_491-jvmRun1 surefire-20240927125757749_1tmp surefire_0-20240927125757749_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\selenium\eclipse\E2EProject\target\test-classes;D:\selenium\eclipse\E2EProject\target\classes;C:\Users\santosh\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\santosh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\santosh\.m2\repository\org\mongodb\mongo-java-driver\3.12.13\mongo-java-driver-3.12.13.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.1\selenium-java-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.1\selenium-chrome-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.1\selenium-chromium-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.1\selenium-json-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.1\selenium-devtools-v125-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.1\selenium-devtools-v126-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.1\selenium-devtools-v127-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.1\selenium-devtools-v85-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.1\selenium-edge-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.1\selenium-firefox-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\santosh\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.1\selenium-ie-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\santosh\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\santosh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\santosh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\santosh\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\santosh\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\santosh\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\santosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\santosh\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\santosh\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.1\selenium-safari-driver-4.23.1.jar;C:\Users\santosh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.1\selenium-support-4.23.1.jar;C:\Users\santosh\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\santosh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\santosh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\santosh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\santosh\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\santosh\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\santosh\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\santosh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\santosh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\santosh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\santosh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\santosh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\santosh\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\santosh\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\santosh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\santosh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\santosh\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\santosh\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\santosh\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\santosh\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\santosh\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\santosh\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\santosh\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\santosh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\selenium\eclipse\E2EProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\santosh\AppData\Local\Temp\surefire17206387854125081797\surefirebooter-20240927125757749_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+7-LTS"/>
+    <property name="user.name" value="santosh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.12.7.1"/>
+    <property name="localRepository" value="C:\Users\santosh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\santosh\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="D:\selenium\eclipse\E2EProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin;C:\Program Files\Amazon Corretto\jdk11.0.24_8\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Users\santosh\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\santosh\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.12+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="login[prepaid](1)" classname="finalCall.onboardingFinalCalls" time="14.115">
+    <system-out><![CDATA[D:\selenium\eclipse\E2EProject
+chrome
+we have a another window
+Type prepaid
+Exception caught after: 5447 ms
+Exception caught after: 10808 ms
+prepaid
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Sep 27, 2024 12:58:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="Dashboard[98652326, testng@selenium.com, Eclipse, no, Kuwait](1)" classname="finalCall.onboardingFinalCalls" time="18.505">
+    <system-out><![CDATA[selected
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="Dashboard[98652326, testng@selenium.com, Eclipse, no, Kuwait](1)" classname="finalCall.onboardingFinalCalls" time="17.281">
+    <system-out><![CDATA[selected
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="CustomerCapture[owner, 1945, Jan, 29, 2099, Aug, 1, test_G, test_A, 23, 1, 1, test_street, office, 1st-30thBillCycle, national id, santhu_testing, INDIVIDUAL, INDIVIDUAL, kuwait, 1.0, 1.0, test, English, Kuwaiti, DunningSchedule, monthly, 1st-30thBillCycle, Kuwaiti, Region1](1)" classname="finalCall.onboardingFinalCalls" time="46.842">
+    <system-out><![CDATA[Eclipse
+6 from UIdob
+1 from exceldob
+-5 dob
+29
+SelectedDay.click()
+SelectedDay.click()
+1 from UIgov
+8 from excelgov
+7 gov
+1
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="CustomerCapture[owner, 1945, Jan, 29, 2099, Aug, 1, test_G, test_A, 23, 1, 1, test_street, office, 1st-30thBillCycle, national id, santhu_testing, INDIVIDUAL, INDIVIDUAL, kuwait, 1.0, 1.0, test, English, Kuwaiti, DunningSchedule, monthly, 1st-30thBillCycle, Kuwaiti, Region1](1)" classname="finalCall.onboardingFinalCalls" time="43.566">
+    <system-out><![CDATA[Eclipse
+6 from UIdob
+1 from exceldob
+-5 dob
+29
+SelectedDay.click()
+1 from UIgov
+8 from excelgov
+7 gov
+1
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="SelectProduct[Postpaid, Prepaid Smartphone Plan, MONTHLY 25 NP, Prepaid](1)" classname="finalCall.onboardingFinalCalls" time="11.34">
+    <system-out><![CDATA[prepaid
+Prepaid
+Prepaid
+Prepaid Smartphone Plan
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SelectProduct[Postpaid, Prepaid Smartphone Plan, MONTHLY 25 NP, Prepaid](1)" classname="finalCall.onboardingFinalCalls" time="9.39">
+    <system-out><![CDATA[Postpaid
+Postpaid
+Postpaid
+MONTHLY 25 NP
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="ProductConfigurationPage" classname="finalCall.onboardingFinalCalls" time="21.519">
+    <system-out><![CDATA[64133254
+2
+MSISDN *
+true
+MSISDN Reserved!
+true
+211000000011583584
+2
+MSISDN *
+SIM NUMBER *
+true
+SIM Reserved!
+true
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="ProductConfigurationPage" classname="finalCall.onboardingFinalCalls" time="20.714">
+    <system-out><![CDATA[64133256
+2
+MSISDN *
+true
+MSISDN Reserved!
+true
+211000000011583586
+2
+MSISDN *
+SIM NUMBER *
+true
+SIM Reserved!
+true
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="ProductUserDetailsPage" classname="finalCall.onboardingFinalCalls" time="3.624">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="ProductUserDetailsPage" classname="finalCall.onboardingFinalCalls" time="2.831">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="SummaryPage" classname="finalCall.onboardingFinalCalls" time="3.493">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SummaryPage" classname="finalCall.onboardingFinalCalls" time="3.385">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="Paymentpage" classname="finalCall.onboardingFinalCalls" time="4.19">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="Paymentpage" classname="finalCall.onboardingFinalCalls" time="3.161">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="StatusCheck" classname="finalCall.onboardingFinalCalls" time="14.346">
+    <system-out><![CDATA[C3470333
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="StatusCheck" classname="finalCall.onboardingFinalCalls" time="14.046">
+    <system-out><![CDATA[C3470334
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="login[Postpaid](1)" classname="finalCall.onboardingFinalCalls" time="12.819">
+    <system-out><![CDATA[D:\selenium\eclipse\E2EProject
+chrome
+we have a another window
+Type Postpaid
+Exception caught after: 5172 ms
+Exception caught after: 10493 ms
+Postpaid
+]]></system-out>
+    <system-err><![CDATA[Sep 27, 2024 1:01:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="login[prepaid](1)" classname="finalCall.AddVasFinalCalls" time="0.149">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SearchCustomer[C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476](1)" classname="finalCall.AddVasFinalCalls" time="2.359">
+    <system-out><![CDATA[1
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SearchCustomer[C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476](1)" classname="finalCall.AddVasFinalCalls" time="3.076">
+    <system-out><![CDATA[1
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="Customer360View" classname="finalCall.AddVasFinalCalls" time="6.981">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="Customer360View" classname="finalCall.AddVasFinalCalls" time="6.299">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="SelectSubscriptionPage" classname="finalCall.AddVasFinalCalls" time="1.184">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SelectSubscriptionPage" classname="finalCall.AddVasFinalCalls" time="1.352">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="SelectVasPlanAndTypePage[Internet Pay As You Go, Prepaid Voice Fr 5G Enabler](1)" classname="finalCall.AddVasFinalCalls" time="8.08">
+    <system-out><![CDATA["Prepaid Voice Fr 5G Enabler" added to the cart
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SelectVasPlanAndTypePage[Internet Pay As You Go, Prepaid Voice Fr 5G Enabler](1)" classname="finalCall.AddVasFinalCalls" time="5.341">
+    <system-out><![CDATA["Internet Pay As You Go" added to the cart
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="ProductConfigurationPage" classname="finalCall.AddVasFinalCalls" time="1.476">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="ProductConfigurationPage" classname="finalCall.AddVasFinalCalls" time="1.418">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="SummaryPage" classname="finalCall.AddVasFinalCalls" time="1.293">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SummaryPage" classname="finalCall.AddVasFinalCalls" time="2.337">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="AddvasStatusCheck" classname="finalCall.AddVasFinalCalls" time="8.106">
+    <system-out><![CDATA[C3470333
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="AddvasStatusCheck" classname="finalCall.AddVasFinalCalls" time="6.427">
+    <system-out><![CDATA[C3470334
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="login[Postpaid](1)" classname="finalCall.AddVasFinalCalls" time="0.148">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="login[prepaid](1)" classname="finalCall.RemoveVasFinalCalls" time="0.117">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RemoveVasSearchCustomer[C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476](1)" classname="finalCall.RemoveVasFinalCalls" time="2.438">
+    <system-out><![CDATA[1
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RemoveVasSearchCustomer[C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476](1)" classname="finalCall.RemoveVasFinalCalls" time="2.288">
+    <system-out><![CDATA[1
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="RemoveVasCustomer360View[Internet Pay As You Go, Prepaid Voice Fr 5G Enabler](1)" classname="finalCall.RemoveVasFinalCalls" time="4.124">
+    <system-out><![CDATA[1
+Prepaid Voice Fr 5G Enabler
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RemoveVasCustomer360View[Internet Pay As You Go, Prepaid Voice Fr 5G Enabler](1)" classname="finalCall.RemoveVasFinalCalls" time="4.405">
+    <system-out><![CDATA[1
+Internet Pay As You Go
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="RemoveVasSelectSubscriptionPage" classname="finalCall.RemoveVasFinalCalls" time="1.867">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RemoveVasSelectSubscriptionPage" classname="finalCall.RemoveVasFinalCalls" time="1.886">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="RemoveVasSummaryPage" classname="finalCall.RemoveVasFinalCalls" time="1.424">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RemoveVasSummaryPage" classname="finalCall.RemoveVasFinalCalls" time="1.517">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="RemoveVasStatusCheck" classname="finalCall.RemoveVasFinalCalls" time="6.555">
+    <system-out><![CDATA[C3470333
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RemoveVasStatusCheck" classname="finalCall.RemoveVasFinalCalls" time="6.471">
+    <system-out><![CDATA[C3470334
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="login[Postpaid](1)" classname="finalCall.RemoveVasFinalCalls" time="0.143">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="login[prepaid](1)" classname="finalCall.SuspensionFinalCalls" time="0.178">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionSearchCustomer[C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476](1)" classname="finalCall.SuspensionFinalCalls" time="2.087">
+    <system-out><![CDATA[1
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionSearchCustomer[C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476](1)" classname="finalCall.SuspensionFinalCalls" time="2.351">
+    <system-out><![CDATA[1
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionCustomer360View" classname="finalCall.SuspensionFinalCalls" time="3.085">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionCustomer360View" classname="finalCall.SuspensionFinalCalls" time="2.799">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionSelectSubscriptionPage" classname="finalCall.SuspensionFinalCalls" time="1.653">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionSelectSubscriptionPage" classname="finalCall.SuspensionFinalCalls" time="1.771">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionSummaryPage" classname="finalCall.SuspensionFinalCalls" time="1.293">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionSummaryPage" classname="finalCall.SuspensionFinalCalls" time="1.437">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionPaymentpage" classname="finalCall.SuspensionFinalCalls" time="0.178">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionPaymentpage" classname="finalCall.SuspensionFinalCalls" time="1.804">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionStatusCheck" classname="finalCall.SuspensionFinalCalls" time="5.966">
+    <system-out><![CDATA[C3470333
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="SuspensionStatusCheck" classname="finalCall.SuspensionFinalCalls" time="6.435">
+    <system-out><![CDATA[C3470334
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="login[Postpaid](1)" classname="finalCall.SuspensionFinalCalls" time="0.138">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="login[prepaid](1)" classname="finalCall.RevokeSuspensionFinalCalls" time="0.168">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RevokeSuspensionSearchCustomer[C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476](1)" classname="finalCall.RevokeSuspensionFinalCalls" time="2.441">
+    <system-out><![CDATA[1
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RevokeSuspensionSearchCustomer[C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476](1)" classname="finalCall.RevokeSuspensionFinalCalls" time="2.35">
+    <system-out><![CDATA[1
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="RevokeSuspensionCustomer360View" classname="finalCall.RevokeSuspensionFinalCalls" time="2.554">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RevokeSuspensionCustomer360View" classname="finalCall.RevokeSuspensionFinalCalls" time="3.399">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="RevokeSuspensionSelectSubscriptionPage" classname="finalCall.RevokeSuspensionFinalCalls" time="2.032">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RevokeSuspensionSelectSubscriptionPage" classname="finalCall.RevokeSuspensionFinalCalls" time="1.61">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="RevokeSuspensionSummaryPage" classname="finalCall.RevokeSuspensionFinalCalls" time="1.921">
+    <system-out><![CDATA[prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RevokeSuspensionSummaryPage" classname="finalCall.RevokeSuspensionFinalCalls" time="1.597">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="RevokeSuspensionStatusCheck" classname="finalCall.RevokeSuspensionFinalCalls" time="6.397">
+    <system-out><![CDATA[C3470333
+prepaid
+]]></system-out>
+  </testcase>
+  <testcase name="RevokeSuspensionStatusCheck" classname="finalCall.RevokeSuspensionFinalCalls" time="6.147">
+    <system-out><![CDATA[C3470334
+Postpaid
+]]></system-out>
+  </testcase>
+  <testcase name="login[Postpaid](1)" classname="finalCall.RevokeSuspensionFinalCalls" time="0.161">
+    <system-out><![CDATA[Postpaid
+]]></system-out>
+  </testcase>
+</testsuite>

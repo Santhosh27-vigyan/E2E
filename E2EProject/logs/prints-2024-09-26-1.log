@@ -1,0 +1,69 @@
+15:37:44.655 [main] INFO  Academy.DashboardPage - certification byPassed
+15:37:44.920 [main] INFO  Academy.DashboardPage - username sent
+15:37:45.124 [main] INFO  Academy.DashboardPage - password sent
+15:40:45.884 [main] INFO  Academy.DashboardPage - certification byPassed
+15:40:46.055 [main] INFO  Academy.DashboardPage - username sent
+15:40:46.187 [main] INFO  Academy.DashboardPage - password sent
+15:42:38.194 [main] INFO  Academy.DashboardPage - certification byPassed
+15:42:38.366 [main] INFO  Academy.DashboardPage - username sent
+15:42:38.493 [main] INFO  Academy.DashboardPage - password sent
+16:06:11.482 [main] INFO  Academy.DashboardPage - certification byPassed
+16:08:02.550 [main] INFO  Academy.DashboardPage - certification byPassed
+16:08:02.737 [main] INFO  Academy.DashboardPage - username sent
+16:08:02.885 [main] INFO  Academy.DashboardPage - password sent
+16:09:51.424 [main] INFO  Academy.DashboardPage - certification byPassed
+16:09:51.606 [main] INFO  Academy.DashboardPage - username sent
+16:09:51.739 [main] INFO  Academy.DashboardPage - password sent
+16:12:42.522 [main] INFO  Academy.DashboardPage - certification byPassed
+16:12:42.728 [main] INFO  Academy.DashboardPage - username sent
+16:12:42.893 [main] INFO  Academy.DashboardPage - password sent
+16:13:27.890 [main] INFO  Academy.DashboardPage - certification byPassed
+16:16:12.346 [main] INFO  Academy.DashboardPage - certification byPassed
+16:16:12.528 [main] INFO  Academy.DashboardPage - username sent
+16:16:12.669 [main] INFO  Academy.DashboardPage - password sent
+16:17:38.363 [main] INFO  Academy.DashboardPage - certification byPassed
+16:17:38.625 [main] INFO  Academy.DashboardPage - username sent
+16:17:38.787 [main] INFO  Academy.DashboardPage - password sent
+16:25:39.506 [main] INFO  Academy.DashboardPage - certification byPassed
+16:25:39.687 [main] INFO  Academy.DashboardPage - username sent
+16:25:39.818 [main] INFO  Academy.DashboardPage - password sent
+16:26:30.052 [main] INFO  Academy.DashboardPage - certification byPassed
+16:26:30.242 [main] INFO  Academy.DashboardPage - username sent
+16:26:30.414 [main] INFO  Academy.DashboardPage - password sent
+16:27:56.237 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+16:28:07.860 [main] INFO  Academy.DashboardPage - certification byPassed
+16:28:08.090 [main] INFO  Academy.DashboardPage - username sent
+16:28:08.276 [main] INFO  Academy.DashboardPage - password sent
+16:28:10.641 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+16:28:17.009 [main] INFO  Academy.DashboardPage - DocumentType selected
+16:28:30.503 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+16:29:31.120 [main] INFO  finalCall.onboardingFinalCalls - Customer Capture Page Completed
+16:29:40.144 [main] INFO  finalCall.onboardingFinalCalls - Product Selected
+16:30:00.617 [main] INFO  finalCall.onboardingFinalCalls - Product configuration done
+16:30:07.504 [main] INFO  finalCall.onboardingFinalCalls - Product User details done
+16:30:10.832 [main] INFO  finalCall.onboardingFinalCalls - SummaryPage details Done
+16:30:14.478 [main] INFO  finalCall.onboardingFinalCalls - Payment Done
+16:30:27.624 [main] INFO  finalCall.onboardingFinalCalls - Onboarding Completed
+16:30:27.625 [main] INFO  finalCall.onboardingFinalCalls - Onboarded Customer ID C3462206
+16:33:03.678 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+16:33:15.178 [main] INFO  Academy.DashboardPage - certification byPassed
+16:33:15.361 [main] INFO  Academy.DashboardPage - username sent
+16:33:15.509 [main] INFO  Academy.DashboardPage - password sent
+16:33:18.458 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+16:33:26.679 [main] INFO  Academy.DashboardPage - DocumentType selected
+16:33:39.346 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+16:34:25.455 [main] INFO  finalCall.onboardingFinalCalls - Customer Capture Page Completed
+16:34:35.726 [main] INFO  finalCall.onboardingFinalCalls - Product Selected
+16:34:56.526 [main] INFO  finalCall.onboardingFinalCalls - Product configuration done
+16:34:59.293 [main] INFO  finalCall.onboardingFinalCalls - Product User details done
+16:35:02.603 [main] INFO  finalCall.onboardingFinalCalls - SummaryPage details Done
+16:35:06.302 [main] INFO  finalCall.onboardingFinalCalls - Payment Done
+16:35:18.624 [main] INFO  finalCall.onboardingFinalCalls - Onboarding Completed
+16:35:18.625 [main] INFO  finalCall.onboardingFinalCalls - Onboarded Customer ID C3462207
+10:28:26.311 [main] INFO  Academy.DashboardPage - certification byPassed
+10:28:26.522 [main] INFO  Academy.DashboardPage - username sent
+10:28:26.674 [main] INFO  Academy.DashboardPage - password sent
+10:33:08.352 [main] INFO  Academy.DashboardPage - certification byPassed
+10:33:08.524 [main] INFO  Academy.DashboardPage - username sent
+10:33:08.662 [main] INFO  Academy.DashboardPage - password sent
+10:59:46.567 [main] INFO  Academy.DashboardPage - certification byPassed

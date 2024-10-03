@@ -1,0 +1,260 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 27 11:48:43 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>212 seconds (212239 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='finalCall.onboardingFinalCalls.ProductConfigurationPage()'><b>ProductConfigurationPage</b><br>Test class: finalCall.onboardingFinalCalls</td>
+<td></td>
+<td>20</td>
+<td>finalCall.onboardingFinalCalls@1b73be9f</td></tr>
+<tr>
+<td title='finalCall.onboardingFinalCalls.CustomerCapture()'><b>CustomerCapture</b><br>Test class: finalCall.onboardingFinalCalls<br>Parameters: owner, 1945, Jan, 29, 2099, Aug, 1, test_G, test_A, 23, 1, 1, test_street, office, 1st-30thBillCycle, national id, santhu_testing, INDIVIDUAL, INDIVIDUAL, kuwait, 1.0, 1.0, test, English, Kuwaiti, DunningSchedule, monthly, 1st-30thBillCycle, Kuwaiti, Region1</td>
+<td></td>
+<td>48</td>
+<td>finalCall.onboardingFinalCalls@1b73be9f</td></tr>
+<tr>
+<td title='finalCall.AddVasFinalCalls.ProductConfigurationPage()'><b>ProductConfigurationPage</b><br>Test class: finalCall.AddVasFinalCalls</td>
+<td></td>
+<td>1</td>
+<td>finalCall.AddVasFinalCalls@30b19518</td></tr>
+<tr>
+<td title='finalCall.RemoveVasFinalCalls.RemoveVasSelectSubscriptionPage()'><b>RemoveVasSelectSubscriptionPage</b><br>Test class: finalCall.RemoveVasFinalCalls</td>
+<td></td>
+<td>1</td>
+<td>finalCall.RemoveVasFinalCalls@363042d7</td></tr>
+<tr>
+<td title='finalCall.SuspensionFinalCalls.login()'><b>login</b><br>Test class: finalCall.SuspensionFinalCalls<br>Parameters: Postpaid</td>
+<td></td>
+<td>0</td>
+<td>finalCall.SuspensionFinalCalls@366ac49b</td></tr>
+<tr>
+<td title='finalCall.SuspensionFinalCalls.SuspensionSearchCustomer()'><b>SuspensionSearchCustomer</b><br>Test class: finalCall.SuspensionFinalCalls<br>Parameters: C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476</td>
+<td></td>
+<td>1</td>
+<td>finalCall.SuspensionFinalCalls@366ac49b</td></tr>
+<tr>
+<td title='finalCall.onboardingFinalCalls.SummaryPage()'><b>SummaryPage</b><br>Test class: finalCall.onboardingFinalCalls</td>
+<td></td>
+<td>3</td>
+<td>finalCall.onboardingFinalCalls@1b73be9f</td></tr>
+<tr>
+<td title='finalCall.onboardingFinalCalls.Dashboard()'><b>Dashboard</b><br>Test class: finalCall.onboardingFinalCalls<br>Parameters: 98652326, testng@selenium.com, Eclipse, no, Kuwait</td>
+<td></td>
+<td>14</td>
+<td>finalCall.onboardingFinalCalls@1b73be9f</td></tr>
+<tr>
+<td title='finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionCustomer360View()'><b>RevokeSuspensionCustomer360View</b><br>Test class: finalCall.RevokeSuspensionFinalCalls</td>
+<td></td>
+<td>3</td>
+<td>finalCall.RevokeSuspensionFinalCalls@6ad59d92</td></tr>
+<tr>
+<td title='finalCall.RemoveVasFinalCalls.RemoveVasSearchCustomer()'><b>RemoveVasSearchCustomer</b><br>Test class: finalCall.RemoveVasFinalCalls<br>Parameters: C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476</td>
+<td></td>
+<td>1</td>
+<td>finalCall.RemoveVasFinalCalls@363042d7</td></tr>
+<tr>
+<td title='finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionSelectSubscriptionPage()'><b>RevokeSuspensionSelectSubscriptionPage</b><br>Test class: finalCall.RevokeSuspensionFinalCalls</td>
+<td></td>
+<td>1</td>
+<td>finalCall.RevokeSuspensionFinalCalls@6ad59d92</td></tr>
+<tr>
+<td title='finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionSummaryPage()'><b>RevokeSuspensionSummaryPage</b><br>Test class: finalCall.RevokeSuspensionFinalCalls</td>
+<td></td>
+<td>1</td>
+<td>finalCall.RevokeSuspensionFinalCalls@6ad59d92</td></tr>
+<tr>
+<td title='finalCall.AddVasFinalCalls.login()'><b>login</b><br>Test class: finalCall.AddVasFinalCalls<br>Parameters: Postpaid</td>
+<td></td>
+<td>0</td>
+<td>finalCall.AddVasFinalCalls@30b19518</td></tr>
+<tr>
+<td title='finalCall.onboardingFinalCalls.Paymentpage()'><b>Paymentpage</b><br>Test class: finalCall.onboardingFinalCalls</td>
+<td></td>
+<td>3</td>
+<td>finalCall.onboardingFinalCalls@1b73be9f</td></tr>
+<tr>
+<td title='finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionStatusCheck()'><b>RevokeSuspensionStatusCheck</b><br>Test class: finalCall.RevokeSuspensionFinalCalls</td>
+<td></td>
+<td>5</td>
+<td>finalCall.RevokeSuspensionFinalCalls@6ad59d92</td></tr>
+<tr>
+<td title='finalCall.RemoveVasFinalCalls.RemoveVasSummaryPage()'><b>RemoveVasSummaryPage</b><br>Test class: finalCall.RemoveVasFinalCalls</td>
+<td></td>
+<td>1</td>
+<td>finalCall.RemoveVasFinalCalls@363042d7</td></tr>
+<tr>
+<td title='finalCall.SuspensionFinalCalls.SuspensionStatusCheck()'><b>SuspensionStatusCheck</b><br>Test class: finalCall.SuspensionFinalCalls</td>
+<td></td>
+<td>5</td>
+<td>finalCall.SuspensionFinalCalls@366ac49b</td></tr>
+<tr>
+<td title='finalCall.RemoveVasFinalCalls.login()'><b>login</b><br>Test class: finalCall.RemoveVasFinalCalls<br>Parameters: Postpaid</td>
+<td></td>
+<td>0</td>
+<td>finalCall.RemoveVasFinalCalls@363042d7</td></tr>
+<tr>
+<td title='finalCall.SuspensionFinalCalls.SuspensionPaymentpage()'><b>SuspensionPaymentpage</b><br>Test class: finalCall.SuspensionFinalCalls</td>
+<td></td>
+<td>1</td>
+<td>finalCall.SuspensionFinalCalls@366ac49b</td></tr>
+<tr>
+<td title='finalCall.onboardingFinalCalls.StatusCheck()'><b>StatusCheck</b><br>Test class: finalCall.onboardingFinalCalls</td>
+<td></td>
+<td>13</td>
+<td>finalCall.onboardingFinalCalls@1b73be9f</td></tr>
+<tr>
+<td title='finalCall.AddVasFinalCalls.SelectSubscriptionPage()'><b>SelectSubscriptionPage</b><br>Test class: finalCall.AddVasFinalCalls</td>
+<td></td>
+<td>1</td>
+<td>finalCall.AddVasFinalCalls@30b19518</td></tr>
+<tr>
+<td title='finalCall.onboardingFinalCalls.login()'><b>login</b><br>Test class: finalCall.onboardingFinalCalls<br>Parameters: Postpaid</td>
+<td></td>
+<td>13</td>
+<td>finalCall.onboardingFinalCalls@1b73be9f</td></tr>
+<tr>
+<td title='finalCall.AddVasFinalCalls.Customer360View()'><b>Customer360View</b><br>Test class: finalCall.AddVasFinalCalls</td>
+<td></td>
+<td>5</td>
+<td>finalCall.AddVasFinalCalls@30b19518</td></tr>
+<tr>
+<td title='finalCall.SuspensionFinalCalls.SuspensionSummaryPage()'><b>SuspensionSummaryPage</b><br>Test class: finalCall.SuspensionFinalCalls</td>
+<td></td>
+<td>1</td>
+<td>finalCall.SuspensionFinalCalls@366ac49b</td></tr>
+<tr>
+<td title='finalCall.onboardingFinalCalls.SelectProduct()'><b>SelectProduct</b><br>Test class: finalCall.onboardingFinalCalls<br>Parameters: Postpaid, Prepaid Smartphone Plan, MONTHLY 25 NP, Prepaid</td>
+<td></td>
+<td>11</td>
+<td>finalCall.onboardingFinalCalls@1b73be9f</td></tr>
+<tr>
+<td title='finalCall.onboardingFinalCalls.ProductUserDetailsPage()'><b>ProductUserDetailsPage</b><br>Test class: finalCall.onboardingFinalCalls</td>
+<td></td>
+<td>2</td>
+<td>finalCall.onboardingFinalCalls@1b73be9f</td></tr>
+<tr>
+<td title='finalCall.RemoveVasFinalCalls.RemoveVasCustomer360View()'><b>RemoveVasCustomer360View</b><br>Test class: finalCall.RemoveVasFinalCalls<br>Parameters: Internet Pay As You Go, Prepaid Voice Fr 5G Enabler</td>
+<td></td>
+<td>3</td>
+<td>finalCall.RemoveVasFinalCalls@363042d7</td></tr>
+<tr>
+<td title='finalCall.RemoveVasFinalCalls.RemoveVasStatusCheck()'><b>RemoveVasStatusCheck</b><br>Test class: finalCall.RemoveVasFinalCalls</td>
+<td></td>
+<td>6</td>
+<td>finalCall.RemoveVasFinalCalls@363042d7</td></tr>
+<tr>
+<td title='finalCall.AddVasFinalCalls.SearchCustomer()'><b>SearchCustomer</b><br>Test class: finalCall.AddVasFinalCalls<br>Parameters: C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476</td>
+<td></td>
+<td>2</td>
+<td>finalCall.AddVasFinalCalls@30b19518</td></tr>
+<tr>
+<td title='finalCall.AddVasFinalCalls.SelectVasPlanAndTypePage()'><b>SelectVasPlanAndTypePage</b><br>Test class: finalCall.AddVasFinalCalls<br>Parameters: Internet Pay As You Go, Prepaid Voice Fr 5G Enabler</td>
+<td></td>
+<td>5</td>
+<td>finalCall.AddVasFinalCalls@30b19518</td></tr>
+<tr>
+<td title='finalCall.AddVasFinalCalls.AddvasStatusCheck()'><b>AddvasStatusCheck</b><br>Test class: finalCall.AddVasFinalCalls</td>
+<td></td>
+<td>6</td>
+<td>finalCall.AddVasFinalCalls@30b19518</td></tr>
+<tr>
+<td title='finalCall.SuspensionFinalCalls.SuspensionSelectSubscriptionPage()'><b>SuspensionSelectSubscriptionPage</b><br>Test class: finalCall.SuspensionFinalCalls</td>
+<td></td>
+<td>2</td>
+<td>finalCall.SuspensionFinalCalls@366ac49b</td></tr>
+<tr>
+<td title='finalCall.SuspensionFinalCalls.SuspensionCustomer360View()'><b>SuspensionCustomer360View</b><br>Test class: finalCall.SuspensionFinalCalls</td>
+<td></td>
+<td>3</td>
+<td>finalCall.SuspensionFinalCalls@366ac49b</td></tr>
+<tr>
+<td title='finalCall.AddVasFinalCalls.SummaryPage()'><b>SummaryPage</b><br>Test class: finalCall.AddVasFinalCalls</td>
+<td></td>
+<td>1</td>
+<td>finalCall.AddVasFinalCalls@30b19518</td></tr>
+<tr>
+<td title='finalCall.RevokeSuspensionFinalCalls.login()'><b>login</b><br>Test class: finalCall.RevokeSuspensionFinalCalls<br>Parameters: Postpaid</td>
+<td></td>
+<td>0</td>
+<td>finalCall.RevokeSuspensionFinalCalls@6ad59d92</td></tr>
+<tr>
+<td title='finalCall.RevokeSuspensionFinalCalls.RevokeSuspensionSearchCustomer()'><b>RevokeSuspensionSearchCustomer</b><br>Test class: finalCall.RevokeSuspensionFinalCalls<br>Parameters: C3445962, C3445962, C3445962, C3445962, C3350476, C3350476, C3350476, C3350476</td>
+<td></td>
+<td>1</td>
+<td>finalCall.RevokeSuspensionFinalCalls@6ad59d92</td></tr>
+</table><p>
+</body>
+</html>

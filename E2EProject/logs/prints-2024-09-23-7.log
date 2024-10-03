@@ -1,0 +1,66 @@
+18:34:08.722 [main] INFO  Academy.DashboardPage - certification byPassed
+18:34:08.913 [main] INFO  Academy.DashboardPage - username sent
+18:34:08.954 [main] INFO  Academy.DashboardPage - password sent
+18:34:11.977 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+18:34:14.803 [main] INFO  Academy.DashboardPage - DocumentType selected
+18:34:28.893 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+18:37:30.403 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+18:37:42.219 [main] INFO  Academy.DashboardPage - certification byPassed
+18:37:42.371 [main] INFO  Academy.DashboardPage - username sent
+18:37:42.406 [main] INFO  Academy.DashboardPage - password sent
+18:37:45.452 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+18:37:47.968 [main] INFO  Academy.DashboardPage - DocumentType selected
+18:38:01.664 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+18:40:36.642 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+18:40:48.186 [main] INFO  Academy.DashboardPage - certification byPassed
+18:40:48.371 [main] INFO  Academy.DashboardPage - username sent
+18:40:48.522 [main] INFO  Academy.DashboardPage - password sent
+18:40:52.680 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+18:40:53.816 [main] INFO  Academy.DashboardPage - DocumentType selected
+18:40:59.214 [main] ERROR pageObjects.DashboardPageObjects - CivilId ID Number Is Required
+18:41:23.916 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+18:41:35.382 [main] INFO  Academy.DashboardPage - certification byPassed
+18:41:35.581 [main] INFO  Academy.DashboardPage - username sent
+18:41:35.731 [main] INFO  Academy.DashboardPage - password sent
+18:41:39.460 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+18:41:41.272 [main] INFO  Academy.DashboardPage - DocumentType selected
+18:41:47.308 [main] ERROR pageObjects.DashboardPageObjects - CivilId ID Number Is Required
+18:42:17.521 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+18:42:29.000 [main] INFO  Academy.DashboardPage - certification byPassed
+18:42:29.284 [main] INFO  Academy.DashboardPage - username sent
+18:42:29.495 [main] INFO  Academy.DashboardPage - password sent
+18:42:33.919 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+18:42:34.809 [main] INFO  Academy.DashboardPage - DocumentType selected
+18:42:57.522 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+18:43:09.025 [main] INFO  Academy.DashboardPage - certification byPassed
+18:43:09.272 [main] INFO  Academy.DashboardPage - username sent
+18:43:09.513 [main] INFO  Academy.DashboardPage - password sent
+18:43:12.312 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+18:43:17.315 [main] INFO  Academy.DashboardPage - DocumentType selected
+18:43:31.738 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+18:44:17.825 [main] INFO  finalCall.onboardingFinalCalls - Customer Capture Page Completed
+18:44:29.693 [main] INFO  finalCall.onboardingFinalCalls - Product Selected
+18:44:50.975 [main] INFO  finalCall.onboardingFinalCalls - Product configuration done
+18:44:54.135 [main] INFO  finalCall.onboardingFinalCalls - Product User details done
+18:44:57.642 [main] INFO  finalCall.onboardingFinalCalls - SummaryPage details Done
+18:45:01.538 [main] INFO  finalCall.onboardingFinalCalls - Payment Done
+18:45:14.352 [main] INFO  finalCall.onboardingFinalCalls - Onboarding Completed
+18:45:14.352 [main] INFO  finalCall.onboardingFinalCalls - Onboarded Customer ID C3434416
+18:49:04.778 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+18:49:16.380 [main] INFO  Academy.DashboardPage - certification byPassed
+18:49:16.584 [main] INFO  Academy.DashboardPage - username sent
+18:49:16.775 [main] INFO  Academy.DashboardPage - password sent
+18:49:20.918 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+18:49:21.743 [main] INFO  Academy.DashboardPage - DocumentType selected
+18:49:36.922 [main] INFO  finalCall.onboardingFinalCalls - login successfull
+18:50:20.910 [main] INFO  finalCall.onboardingFinalCalls - Customer Capture Page Completed
+18:50:32.772 [main] INFO  finalCall.onboardingFinalCalls - Product Selected
+18:50:53.618 [main] INFO  finalCall.onboardingFinalCalls - Product configuration done
+18:50:56.665 [main] INFO  finalCall.onboardingFinalCalls - Product User details done
+18:51:00.122 [main] INFO  finalCall.onboardingFinalCalls - SummaryPage details Done
+18:51:03.607 [main] INFO  finalCall.onboardingFinalCalls - Payment Done
+18:51:16.151 [main] INFO  finalCall.onboardingFinalCalls - Onboarding Completed
+18:51:16.152 [main] INFO  finalCall.onboardingFinalCalls - Onboarded Customer ID C3434417
+18:54:57.896 [main] INFO  finalCall.onboardingFinalCalls - driver initialized
+18:55:09.858 [main] INFO  Academy.DashboardPage - certification byPassed
+18:55:10.037 [main] INFO  Academy.DashboardPage - username sent

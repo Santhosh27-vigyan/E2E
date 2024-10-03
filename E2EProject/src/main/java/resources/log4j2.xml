@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+<properties>
+<property name="basepath">./logs</property>
+</properties>
+  <Appenders>
+  <RollingFile name="file" fileName="${basepath}/prints.log"
+                       filePattern="${basepath}/prints-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="5000" />
+          </RollingFile>
+           <RollingFile name="error_file" fileName="${basepath}/Error_prints.log"
+                       filePattern="${basepath}/Error_prints-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="5000" />
+          </RollingFile>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+  <logger name="pageObjects.DashboardPageObjects" level="error" additivity="true">
+  <AppenderRef ref="error_file"/>
+  </logger>
+  <logger name="Academy.CustomerCapture" level="error" additivity="true">
+  <AppenderRef ref="error_file"/>
+  </logger>
+  <Logger name="org.apache.xmlbeans" level="off"/>
+  <Logger name="org.apache.poi" level="off" additivity="false"/>
+    
+    <Root level="trace">
+      <AppenderRef ref="file"/>
+    </Root>  
+  </Loggers>
+</Configuration>

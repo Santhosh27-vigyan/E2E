@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners><listener class-name="Listener.testListener"></listener>
+<!-- <listener class-name="resources.ExtentReporterNG"/> -->
+</listeners>
+  <test name="Test">
+  <parameter name="type" value="DefaultType"></parameter>
+    <classes>
+        <class name="finalCall.onboardingFinalCalls"/>
+ 				<class name="finalCall.AddVasFinalCalls"/>
+ 			 <class name="finalCall.RemoveVasFinalCalls"/>
+ 			 <class name="finalCall.SuspensionFinalCalls"/>
+ 				 <class name="finalCall.RevokeSuspensionFinalCalls"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
